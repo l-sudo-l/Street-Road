@@ -4,7 +4,7 @@ import utiles.Utiles;
 
 public class Personaje {
     private String nombre;
-    private int dinero = 750;
+    private int dinero;
 
     public Personaje(String nombre, int dinero) {
         this.nombre = nombre;

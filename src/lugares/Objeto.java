@@ -2,13 +2,13 @@ package lugares;
 
 public class Objeto {
     private String nombre;
-    private int precio;
+    private int precioCompra;
     private int precioVenta;
     private int aumentoVelicidad;
 
-    public Objeto(String nombre, int precio, int precioVenta, int aumentoVelicidad) {
+    public Objeto(String nombre, int precioCompra, int precioVenta, int aumentoVelicidad) {
         this.nombre = nombre;
-        this.precio = precio;
+        this.precioCompra = precioCompra;
         this.precioVenta = precioVenta;
         this.aumentoVelicidad = aumentoVelicidad;
     }
@@ -17,8 +17,8 @@ public class Objeto {
         return nombre;
     }
 
-    public int getPrecio() {
-        return precio;
+    public int getPrecioCompra() {
+        return precioCompra;
     }
 
     public int getPrecioVenta() {
